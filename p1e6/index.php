@@ -8,6 +8,7 @@
 <body>
     <p>
         <?php $name = 'Julien'; 
+        //concaténe une variable dans une chaines de carractéres.
         echo('Bonjour ' . $name . ' comment vas tu ?');
         ?>
     </p>

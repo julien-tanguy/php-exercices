@@ -6,7 +6,9 @@
     <title>php - e8p1</title>
 </head>
 <body>
-    <?php $addition = 3 + 4; 
+    <?php
+    //echo d'une variable contenant une opération affiche son résultat. 
+    $addition = 3 + 4; 
     $multi =  5 * 20;
     $division = 45/5;
     ?>

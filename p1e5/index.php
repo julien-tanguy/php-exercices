@@ -7,7 +7,9 @@
 </head>
 <body>
     <p>
-        <?php $number = NULL; 
+        <?php 
+        //une variable définis comme NULL n'affichera rien.
+        $number = NULL; 
         echo ($number);
         ?>
     </p>

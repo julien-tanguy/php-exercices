@@ -6,9 +6,14 @@
     <title>php - e4p1</title>
 </head>
 <body>
-    <?php $string = "variable string"; 
+    <?php
+    //variable de type string.
+    $string = "variable string"; 
+    //variable de type int (entier).
     $int = 34;
+    //variable de type float (à virgule).
     $float = 45.65;
+    //variable de type booléen, affiche 1 (true) ou 0 (false).
     $bool = true;
     ?>
     <p>
@@ -21,7 +26,7 @@
         <?php echo $float ?>
     <p>
     <p>
-        <?php echo $bool ?>
+        <?php echo $string ?>
     <p>
 </body>
 </html>

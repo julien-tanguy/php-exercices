@@ -7,12 +7,16 @@
 </head>
 <body>
     <p>
+    <!--défini la valeur de $km.-->
     <?php $km = 1; 
+    //affiche $km
     echo $km;
     ?>
     </p>
     <p>
-    <?php $km = 3; 
+    <!--cha nge la valeur de $km-->
+    <?php $km = 3;
+    //affiche la nouvelle valeur de $km 
     echo $km;
     ?>
     </p>

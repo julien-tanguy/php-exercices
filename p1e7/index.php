@@ -10,6 +10,7 @@
         <?php $lastname = 'TANGUY'; 
         $firstname =  'Julien';
         $age = 30;
+        //concaténe plusieurs variables dans une chaines de carractéres.
         echo('bonjour '  . $lastname . ' ' . $firstname .  ' tu as ' . $age . ' ans.');
         ?>
     </p>

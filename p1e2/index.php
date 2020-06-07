@@ -10,6 +10,7 @@
         <?php $lastname = 'TANGUY'; 
         $firstname =  'Julien';
         $age = 30;
+        //pour concatener, le . remplace le +.
         $phrase = 'bonjour je m\'appelle '  . $lastname . ' ' . $firstname .  'j\'ai ' . $age . ' ans.';
         echo($phrase);
         ?>
