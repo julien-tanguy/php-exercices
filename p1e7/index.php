@@ -6,13 +6,11 @@
     <title>php - e7p1</title>
 </head>
 <body>
-    <p>
-        <?php $lastname = 'TANGUY'; 
-        $firstname =  'Julien';
-        $age = 30;
-        //concaténe plusieurs variables dans une chaines de carractéres.
-        echo('bonjour '  . $lastname . ' ' . $firstname .  ' tu as ' . $age . ' ans.');
-        ?>
-    </p>
+        <?php 
+            $lastname = 'TANGUY'; 
+            $firstname =  'Julien';
+            $age = 30; ?>
+        <!--concaténe plusieurs variables dans une chaines de carractéres.-->
+        <p><?= 'bonjour '  . $lastname . ' ' . $firstname .  ' tu as ' . $age . ' ans.' ?></p>
 </body>
 </html>

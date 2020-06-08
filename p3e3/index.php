@@ -6,7 +6,7 @@
     <title>php - e3p3</title>
 </head>
 <body>
-    <p><?php
+    <?php
     $number = 100;
     $number2 = 32;
     
@@ -14,10 +14,10 @@
         //multiplie $number par $number2
         $multi = $number * $number2;
         //affiche le resultat
-        echo $multi . '<br />';
+        ?><p><?php echo $multi; ?></p><?php
         //decremente $number
         $number--;
     }
-    ?></p>
+    ?>
 </body>
 </html>

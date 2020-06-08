@@ -6,11 +6,11 @@
     <title>php - e8p3</title>
 </head>
 <body>
-    <p><?php
+    <?php
     //decrementer $pas de 12 a chaque tour de boucle tant qu'il est supp a 0
     for ($pas = 200; $pas > 0; $pas = $pas - 12) {
-        echo $pas . ' Enfin!!!<br />';
+        ?><p><?php echo $pas . ' Enfin!!!'; ?></p><?php
     }
-    ?></p>
+    ?>
 </body>
 </html>

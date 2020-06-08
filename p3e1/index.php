@@ -7,16 +7,13 @@
 </head>
 <body>
 
-    <p><?php
+    <?php
     $number = 0;
     //tant que $number est < 10, executer le code.
     while ($number <= 10) {
-        //test creer element p qui a pour valeur $number en php.
-        // $newligne = DOMDocument::createElement ('p');
-        // DOMElement::$nodeValue = $number;
-        echo 'la valeur de number est de : ' . $number . '<br>';
+        ?><p><?php echo $number; ?></p><?php
         $number++;
     }
-    ?></p>
+    ?>
 </body>
 </html>

@@ -12,7 +12,8 @@
         $age = 30;
         //pour concatener, le . remplace le +.
         $phrase = 'bonjour je m\'appelle '  . $lastname . ' ' . $firstname .  'j\'ai ' . $age . ' ans.';
-        echo($phrase);
+        echo $phrase;
+        //dans des double cote, php va analyser la chaine pour trouver ce qu'il doit remplacer, donc plus gourmand en ressource
         ?>
     </p>
 </body>

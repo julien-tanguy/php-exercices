@@ -6,26 +6,15 @@
     <title>php - e3p1</title>
 </head>
 <body>
-    <p>
     <!--défini la valeur de $km.-->
-    <?php $km = 1; 
+    <p><?php $km = 1; 
     //affiche $km
-    echo $km;
-    ?>
-    </p>
-    <p>
+        echo $km; ?></p>
     <!--cha nge la valeur de $km-->
-    <?php $km = 3;
+    <p><?php $km = 3;
     //affiche la nouvelle valeur de $km 
-    echo $km;
-    ?>
-    </p>
-    <p>
-    <?php $km = 125; 
-    echo $km;
-    ?>
-    </p>
-    
-   
+        echo $km; ?></p>
+    <p><?php $km = 125; 
+        echo $km;?></p>
 </body>
 </html>

@@ -6,11 +6,11 @@
     <title>php - e5p3</title>
 </head>
 <body>
-    <p><?php
+    <?php
     //ajouter un pas a chaque tour de boucle tant qu'il est inferieur ou egale a 15
     for ($pas = 1; $pas <= 15; $pas++) {
-        echo $pas . ' On y arrive presque. <br />';
+        ?><p><?php echo $pas . ' On y arrive presque.'; ?></p><?php
     }
-    ?></p>
+    ?>
 </body>
 </html>

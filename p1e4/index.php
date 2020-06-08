@@ -13,20 +13,13 @@
     $int = 34;
     //variable de type float (à virgule).
     $float = 45.65;
-    //variable de type booléen, affiche 1 (true) ou 0 (false).
+    //En php, une variable de type booléen, affiche 1 (true) ou 0 (false).
     $bool = true;
     ?>
-    <p>
-        <?php echo $string ?>
-    <p>
-    <p>
-        <?php echo $int ?>
-    <p>
-    <p>
-        <?php echo $float ?>
-    <p>
-    <p>
-        <?php echo $string ?>
-    <p>
+    <p><?php echo $string; ?></p>
+    <!--facon plus rapide pour ecrire un echo-->
+    <p><?= $int ?></p>
+    <p><?php echo $float; ?></p>
+    <p><?php echo $string; ?></p>
 </body>
 </html>

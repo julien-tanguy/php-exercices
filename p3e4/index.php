@@ -6,11 +6,11 @@
     <title>php - e4p3</title>
 </head>
 <body>
-    <p><?php
+    <?php
     //tant que $number est inférieur ou égale a 10, l'incrementer de la moitié de sa valeur
-    for ($number = 1; $number <= 10; $number = $number + $number/2) {
-        echo $number . '<br />';
+    for ($number = 1; $number <= 10; $number = $number + $number / 2) {
+        ?><p><?php echo $number; ?></p><?php
     }
-    ?></p>
+    ?>
 </body>
 </html>
